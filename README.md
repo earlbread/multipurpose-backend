@@ -1,9 +1,8 @@
 # Multipurpose Backend
 
-This project is a back-end server for various purposes.
-The project uses [Google App Engine][1].
+This project is a back-end server for various purpose using [Google App Engine][1].
 
-Now it provides Yelp API proxy server.
+Currently, it provides Yelp API proxy server.
 
 ## Yelp API
 To use Yelp API Server, you need to get [Yelp API Key][2].
