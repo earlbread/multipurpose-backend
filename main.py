@@ -31,7 +31,7 @@ def get_yelp_info(yelp_id):
         return abort(404)
 
     allowed_url = AllowedUrl.query(AllowedUrl.origin == origin,
-                                   AllowedUrl.referer == referer)
+                                   AllowedUrl.referer == referer).get()
 
     if allowed_url is None:
         return abort(404)
